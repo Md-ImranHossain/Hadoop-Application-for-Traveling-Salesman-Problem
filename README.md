@@ -41,4 +41,4 @@ A hadoop Job could be started by the console command " hadoop jar [.jar-file] [i
 ### Output
 The output file contains the line-up of the points building the route and the score of the best route.
 
-![] (https://github.com/Md-ImranHossain/Hadoop-Application-for-Traveling-Salesman-Problem/blob/master/Capture5.PNG)
+![](https://github.com/Md-ImranHossain/Hadoop-Application-for-Traveling-Salesman-Problem/blob/master/Capture5.PNG)
