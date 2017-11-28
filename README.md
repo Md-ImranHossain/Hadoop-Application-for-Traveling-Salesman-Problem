@@ -33,6 +33,8 @@ This function finds the best route in the routes in HashMap populated in the red
 ### Input
 Two input files are needed. One is the input distance matrix, cotaining the distance between any pair of points to be traversed. So for n points, the input matrix is n times n. The value of the pair (a,b) and pair (b,a) does not have to be the same, but can be. The other input file contains lines representing one part of a route. The number of points for the pre-set route is depending on the number of splits (map-reduce jobs) wanted by the user. The number of input lines should be higher than the number of Datanodes in the cluster, otherwise some Datanodes will not process data.
 
+A sample distance matrix and input point files are provided in the repository.
+
 ### Running the application
 A hadoop Job could be started by the console command " hadoop jar [.jar-file] [input folder][output folder] ", giving the direction and name of the .jar file, the input folder, the output folder. 
 
