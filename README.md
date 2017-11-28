@@ -41,4 +41,6 @@ A hadoop Job could be started by the console command " hadoop jar [.jar-file] [i
 ### Output
 The output file contains the line-up of the points building the route and the score of the best route.
 
+## Results
+The following figure shows performance of the application in different input and hadoop cluster setup. The x axis represents no of input points processed in a different cluster setup (no. of data nodes). The y axis represents the processing time. It is noticible here that the calculation time drops to almost half as we doubled the no. of data nodes in the cluster.
 ![](https://github.com/Md-ImranHossain/Hadoop-Application-for-Traveling-Salesman-Problem/blob/master/Capture5.PNG)
