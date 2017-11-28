@@ -18,3 +18,16 @@ cleanup():
 
 Before the Mapper is closed, the cleanup function writes the best route and its score to the context file. The writen output pair is the route as a new Text object,containing a string, plus score as a new DoubleWritable, containing a double.
 
+### Reduce class
+Below are some important functions with their description
+
+reduce():
+
+In this function a HashMap defined in the setup function is populated with the results from all mappers of the Map class.
+
+cleanup(): 
+
+This function finds the best route in the routes in HashMap populated in the reduce() function and write it to the context
+
+# Usage of the application
+
